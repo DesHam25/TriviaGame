@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="start">Start<br />Quiz</div>
+
+      <!-- setting the display property to none, the "start" quiz button only needs to be at the beginning of the quiz  -->
+      <div id="quiz" style="display: none">
+        <!-- Inside the page we are displaying Questions, Image,Counter,btimeGauge,timeGauge -->
+        <div id="question"></div>
+
+        <!-- Img is to for each question being ask -->
+        <div id="qImg"></div>
+        <!-- Each question has three choice only (1) is correct the other (2) are wrongAnwswer  -->
+        <div id="choices">
+          <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+          <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+          <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+          <div id="counter"></div>
+          <div id="btimeGauge"></div>
+          <div id="timeGauge"></div>
+        </div>
+        <!-- The Progress tells how many questions are Correct (Greeb) & Wrong (Red) and who many question there are-->
+        <div id="progress"></div>
+      </div>
+      <!-- Shows the score percent after the quiz is taken with Gif base on the score -->
+      <div id="scoreContainer" style="display:none"></div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>

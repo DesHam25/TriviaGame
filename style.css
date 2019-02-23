@@ -1,0 +1,168 @@
+body {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#container {
+  margin: 20px auto;
+  height: 400px;
+  width: 800px;
+  background-image: url(img/DisneyBG.jpg);
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  border: 3px solid red;
+}
+#start {
+  font-size: 1.5em;
+  font-weight: bolder;
+  word-break: break-all;
+  width: 150px;
+  height: 200px;
+  border: 5px solid red;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  cursor: pointer;
+  position: left;
+  color:red;
+
+}
+#start:hover {
+  border: 3px solid greenyellow;
+  color: greenyellow;
+}
+
+
+#qImg {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#qImg img {
+  width: 250px;
+  height: 250px;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 3px 3px 3px;
+}
+
+#question {
+  width: 500px;
+  height: 125px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#question p {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+#choices {
+  width: 480px;
+  position: absolute;
+  right: 0;
+  top: 125px;
+  padding: 10px;
+  margin: 0px ;
+  font-size: 1em;
+}
+.choice {
+  display: inline-block;
+  width: 135px;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 3px 3px 3px;
+}
+
+.choice:hover {
+  border: 2px solid greenyellow;
+  font-weight: bold;
+}
+
+#timer {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  bottom: 0px;
+  text-align: center;
+  color: red;
+
+}
+#counter {
+  font-size: 3em;
+}
+#btimeGauge {
+  width: 150px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  margin-left: 25px;
+  
+}
+#timeGauge {
+  height: 10px;
+  border-radius: 10px;
+  background-color:red;
+  margin-top: -10px;
+  margin-left: 25px;
+  
+}
+#progress {
+  width: 500px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+  text-align: right;
+  
+}
+.prog {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0px 2px 2px 0px;
+}
+#scoreContainer {
+  margin: 20px auto;
+  background-color: white;
+  opacity: 0.8;
+  height: 300px;
+  width: 700px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: none;
+}
+#scoreContainer img {
+  position: absolute;
+  top: 100px;
+  left: 325px;
+}
+#scoreContainer p {
+  position: absolute;
+  display: block;
+  width: 59px;
+  height: 59px;
+  top: 130px;
+  left: 325px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
