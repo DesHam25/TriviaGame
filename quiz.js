@@ -99,8 +99,6 @@ let questions = [
   }
 ];
 
-
-
 // create some variables
 
 const lastQuestion = questions.length - 1;

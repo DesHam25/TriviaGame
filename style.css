@@ -1,8 +1,7 @@
 body {
   font-size: 20px;
-  font-family:
+  font-family: 'Times New Roman', Times, serif;
 }
-
 
 #container {
   margin: 20px auto;
@@ -28,14 +27,12 @@ body {
   line-height: 60px;
   cursor: pointer;
   position: left;
-  color:red;
-
+  color: red;
 }
 #start:hover {
   border: 3px solid greenyellow;
   color: greenyellow;
 }
-
 
 #qImg {
   width: 200px;
@@ -73,7 +70,7 @@ body {
   right: 0;
   top: 125px;
   padding: 10px;
-  margin: 0px ;
+  margin: 0px;
   font-size: 1em;
 }
 .choice {
@@ -100,7 +97,6 @@ body {
   bottom: 0px;
   text-align: center;
   color: red;
-
 }
 #counter {
   font-size: 3em;
@@ -111,15 +107,13 @@ body {
   border-radius: 10px;
   background-color: greenyellow;
   margin-left: 25px;
-  
 }
 #timeGauge {
   height: 10px;
   border-radius: 10px;
-  background-color:red;
+  background-color: red;
   margin-top: -10px;
   margin-left: 25px;
-  
 }
 #progress {
   width: 500px;
@@ -128,7 +122,6 @@ body {
   right: 0px;
   padding: 5px;
   text-align: right;
-  
 }
 .prog {
   width: 25px;
@@ -169,5 +162,4 @@ body {
   font-weight: bold;
   text-align: center;
   color: white;
-
 }
