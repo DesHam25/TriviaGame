@@ -1,22 +1,22 @@
 // select all elements, we will need ti update the inner HTML of our elements
-const start = document.getElementById("start");
-const quiz = document.getElementById("quiz");
-const question = document.getElementById("question");
-const qImg = document.getElementById("qImg");
-const choiceA = document.getElementById("A");
-const choiceB = document.getElementById("B");
-const choiceC = document.getElementById("C");
-const counter = document.getElementById("counter");
-const timeGauge = document.getElementById("timeGauge");
-const progress = document.getElementById("progress");
-const scoreDiv = document.getElementById("scoreContainer");
+var start = document.getElementById("start");
+var quiz = document.getElementById("quiz");
+var question = document.getElementById("question");
+var qImg = document.getElementById("qImg");
+var choiceA = document.getElementById("A");
+var choiceB = document.getElementById("B");
+var choiceC = document.getElementById("C");
+var counter = document.getElementById("counter");
+var timeGauge = document.getElementById("timeGauge");
+var progress = document.getElementById("progress");
+var scoreDiv = document.getElementById("scoreContainer");
 var audio = new Audio("mp3/03 Kiss the Girl.mp3");
 /* create our questions inside of a Array, every question will be an object and these object will have the same properties. 
 Let question = a Array Question, img related to the question, choice A B or C, finaly the correct Answer*/
 let questions = [
   {
     question: "What does Ursula want from Ariel?",
-    imgSrc: "/img/Ursula.jpg",
+    imgSrc: "img/Ursula.jpg",
     choiceA: "Her voice",
     choiceB: "Her soul",
     choiceC: "Her eyes",
@@ -98,6 +98,8 @@ let questions = [
     correct: "A"
   }
 ];
+
+
 
 // create some variables
 
